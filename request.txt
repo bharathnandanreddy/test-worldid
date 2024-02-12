@@ -1,0 +1,10 @@
+curl -X POST "https://developer.worldcoin.org/api/v1/verify/{app_staging_d5398688cee5de0467ef8e75de28540f}" \
+    -H "Content-Type: application/json" \
+    -d '{
+        "nullifier_hash": "0x07d60a6f766e8d141e2d62b70bffa5d197f18ca074b6cae3aa0f4bcf75a98346",
+        "merkle_root": "0x22fcdf8d598f5161aecc7b8a13e35f75a85f8b0d691b54fdb9684c6e635bf2e7",
+        "proof": "0x02352ad6d270cddf20179c6b072b58cb9ed899b5a12d5646d2891b58c71f6869006cc65c6e61c74430d4b1d5826c2fafa42e22878c32c0465504506340871aae06aa2e3fb36889b940627b43c5f35a3737959b9b5cba22d718757338a7e28f6313cb0e044d8fd5c0e729a76f7cb26a4d232f4c54668b47cdee5a7f8f988896ca0255da7ba59325285ba27c72d7e6fde978243cf8e3b2b9151bccf7534587a9622b3d1fc5b6a4eaa5cdfa0582f412051e899363bbb0395df657cc9e4a97f8dbb60d861ae56bf8832547622bbb34ca4934e37310a10c55927805bd71653ced7b4d12ddfd913d946c68f255d2490d3d0e95ef37052740266477aab122d9d8474a96",
+        "verification_level": "orb",
+        "action": "vote_2",
+        "signal": ""
+    }'
